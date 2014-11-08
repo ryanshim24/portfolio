@@ -1,0 +1,43 @@
+<div id="social">
+  <div class="container">
+      <div class="row-center text-center">
+        <div class="col-lg-4">
+          <a target="_blank" href="https://www.facebook.com/ryan.shim.7"><i class="fa fa-facebook"></i></a>
+        </div>
+
+        <div class="col-lg-4">
+          <a target="_blank" href="https://www.linkedin.com/in/ryanshim24"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="col-lg-4">
+          <a href="mailto:ryanshim92@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+<!-- JAVASCRIPT STUFF FANCYBOX -->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+  // fancybox popover on index page
+  $(".fancybox")
+      .attr('rel', 'gallery')
+      .fancybox({
+        helpers: {
+          title: {
+            type: 'inside',
+          },
+          overlay: {
+           locked: false
+         },
+        }
+      });  
+
+}); //closing document ready
+</script>
+
+</body>
+</html>
