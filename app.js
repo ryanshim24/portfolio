@@ -13,9 +13,6 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.get('/about', function(req,res) { 
-  res.render('about');
-});
 
 var server = app.listen(process.env.PORT || 3000, function() {
     console.log('Listening on port %d', server.address().port);
