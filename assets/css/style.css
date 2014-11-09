@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+  color: #559fca;
 }
 
 .navbar-default {
@@ -58,13 +58,13 @@ body {
 }
 
 .navbar-default a:hover {
-	color: #1abc9c;
+	color: #559fca;
 	background-color: transparent;
 	border-bottom: 2px solid #1abc9c
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: #559fca;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -143,11 +143,7 @@ body {
 	opacity: 0.4;
 }
 
-.gallery img {
-	width: 355px;
-	height: 265px
 
-}
 
 
 /*	################################################################
@@ -208,12 +204,12 @@ body {
 ################################################################# */
 
 #aboutwrap {	
-	background: url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t35.0-12/10754483_10152544945898667_1750295750_o.jpg?oh=3d271c238ef42365f4f4fc4e6ef1b2bb&oe=54606E0D&__gda__=1415551836_737613a547a69fa7ce4ccc746fd10b2c) no-repeat center top;
+	background: url(https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t35.0-12/10752818_10152547199628667_1302618357_o.jpg?oh=d19edb09e439b4dd2515c0d1b1e14539&oe=5460AB5B&__gda__=1415691914_13e14877933456136d4c9cdd304cb6a1) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
-	min-height: 550px;
+	min-height: 670px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
