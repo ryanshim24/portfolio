@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -17,15 +17,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
   font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -87,7 +87,7 @@ body {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -159,7 +159,7 @@ body {
 	min-height: 450px;
 	width: 100%;
 	color: white;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -203,15 +203,14 @@ body {
 
 ################################################################# */
 
-#aboutwrap {	
-	background: url(https://i.imgur.com/s4FrstV.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
+#aboutwrap {
+	background: url(https://i.imgur.com/flB5AFP.jpg) no-repeat center top;
 	text-align:center;
 	background-attachment: relative;
+  background-position: center center;
 	min-height: 615px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -223,6 +222,26 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 575px) {
+  #aboutwrap {
+    background: url(http://i.imgur.com/iHldtbG.jpg?1) no-repeat center top;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+  }
+}
 
 /*  ################################################################
 7. I did some inline styling... OPPS if it's not here it's on my index page.
