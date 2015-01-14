@@ -79,7 +79,7 @@ body {
 
 
 #headerwrap {
-	background: url(https://i.imgur.com/6O7qnsg.jpg) no-repeat center top;
+	background: url(/images/image2.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -152,7 +152,7 @@ body {
 ################################################################# */
 
 #sep {
-	background: url(https://i.imgur.com/S0OMSRg.jpg) no-repeat center top;
+	background: url(/images/image9.jpg) no-repeat center top;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
@@ -204,7 +204,7 @@ body {
 ################################################################# */
 
 #aboutwrap {
-	background: url(https://i.imgur.com/flB5AFP.jpg) no-repeat center top;
+	background: url(/images/image10.jpg) no-repeat center top;
 	text-align:center;
 	background-attachment: relative;
   background-position: center center;
@@ -224,7 +224,7 @@ body {
 
 @media (max-width: 575px) {
   #aboutwrap {
-    background: url(http://i.imgur.com/iHldtbG.jpg?1) no-repeat center top;
+    background: url(/images/image11.jpg) no-repeat center top;
     text-align:center;
     background-attachment: relative;
     background-position: center center;
