@@ -118,7 +118,9 @@ body {
 3. MY WORK YO WITH FANCYBOX
 
 ################################################################# */
-
+.pics {
+  border: 1px solid black;
+}
 #g {
 	padding-top: 50px;
 	padding-bottom: 50px;
